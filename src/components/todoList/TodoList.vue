@@ -4,7 +4,7 @@
 <div>
      <input class="my-input" v-model="inputContent" placeholder="Take to do"  v-on:keyup.enter="onEnter"/>
      <ul class="todolist">
-         <li v-for="list in listContents">
+         <li v-for="(list,i) in listContents" :key="i">
                {{list.content}}
           </li>
       </ul>

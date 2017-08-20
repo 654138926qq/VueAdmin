@@ -38,7 +38,7 @@
         },
         data(){
             return{
-                content:'<h2>JSPangAdmin 是一个由Vue2为框架开发的后台管理系统。</h2><h3>你可以随意的使用并编辑它，希望可以帮助前端开发者减轻开发步骤，让大家有时间泡妞和享受生活。</h3>',
+                content:'<h2>vueAdmin 是一个由Vue2为框架开发的后台管理系统。</h2><h3>可以减轻开发步骤</h3>',
                 editorOption: {}
             }
         },
